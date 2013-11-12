@@ -1,1 +1,6 @@
 C:\Users\re222dv\git\Uppgift-1\Tri\bin\Debug\Tri.exe.config
+C:\Users\re222dv\git\Uppgift-1\Tri\bin\Debug\Tri.exe
+C:\Users\re222dv\git\Uppgift-1\Tri\bin\Debug\Tri.pdb
+C:\Users\re222dv\git\Uppgift-1\Tri\obj\Debug\Tri.csprojResolveAssemblyReference.cache
+C:\Users\re222dv\git\Uppgift-1\Tri\obj\Debug\Tri.exe
+C:\Users\re222dv\git\Uppgift-1\Tri\obj\Debug\Tri.pdb
