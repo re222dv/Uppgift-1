@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  	<title>Blackbox</title>
+  </head>
+  <body>
+    <table>
+    	<thead>
+    		<tr>
+    			<th>#</th>
+    			<th>Beskrivning</th>
+    			<th>Indata</th>
+    			<th>Förväntad utdata</th>
+    		</tr>
+    	</thead>
+    	<tr id="t1">
+    		<td>1</td>
+    		<td>Test av tre lika sidor</td>
+    		<td>3 3 3</td>
+    		<td>Triangeln är liksidig</td>
+    	</tr>
+    	<tr id="t2">
+    		<td>2</td>
+    		<td>Test av två lika sidor och en olik</td>
+    		<td>3 3 1</td>
+    		<td>Triangeln är likbent</td>
+    	</tr>
+    	<tr id="t3">
+    		<td>3</td>
+    		<td>Test av tre olika sidor</td>
+    		<td>1 2 3</td>
+    		<td>Triangeln har inga lika sidor</td>
+    	</tr>
+    	<tr id="t4">
+    		<td>4</td>
+    		<td>Test av en negativ sida</td>
+    		<td>-1 6 3</td>
+    		<td>Triangeln har inga lika sidor</td>
+    	</tr>
+    	<tr id="t5">
+    		<td>5</td>
+    		<td>Test av inga argument</td>
+    		<td></td>
+    		<td>Ett felmedelande</td>
+    	</tr>
+    	<tr id="t6">
+    		<td>6</td>
+    		<td>Test av fel antal argument</td>
+    		<td>1 2 3 4</td>
+    		<td>Ett felmedelande</td>
+    	</tr>
+    </table>
+  </body>
+</html>
