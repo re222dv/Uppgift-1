@@ -8,6 +8,8 @@ namespace UnitTestTri {
         public void isScaleneTest() {
             Triangle tri = new Triangle(1.0, 0.5, 2.0);
             Assert.IsTrue(tri.isScalene());
+            tri = new Triangle(1.0, 1.0, 2.0);
+            Assert.IsFalse(tri.isScalene());
         }
 
         [TestMethod]
@@ -22,6 +24,8 @@ namespace UnitTestTri {
         public void isEquilateralTest() {
             Triangle tri = new Triangle(1.0, 1.0, 1.0);
             Assert.IsTrue(tri.isEquilateral());
+            tri = new Triangle(1.0, 1.0, 2.0);
+            Assert.IsFalse(tri.isEquilateral());
         }
     }
 }

@@ -5,3 +5,10 @@ C:\Users\re222dv\git\Uppgift-1\UnitTestTri\bin\Debug\Tri.pdb
 C:\Users\re222dv\git\Uppgift-1\UnitTestTri\obj\Debug\UnitTestTri.csprojResolveAssemblyReference.cache
 C:\Users\re222dv\git\Uppgift-1\UnitTestTri\obj\Debug\UnitTestTri.dll
 C:\Users\re222dv\git\Uppgift-1\UnitTestTri\obj\Debug\UnitTestTri.pdb
+C:\Users\re222dv\Documents\Uppgift-1\UnitTestTri\bin\Debug\UnitTestTri.dll
+C:\Users\re222dv\Documents\Uppgift-1\UnitTestTri\bin\Debug\UnitTestTri.pdb
+C:\Users\re222dv\Documents\Uppgift-1\UnitTestTri\bin\Debug\Tri.exe
+C:\Users\re222dv\Documents\Uppgift-1\UnitTestTri\bin\Debug\Tri.pdb
+C:\Users\re222dv\Documents\Uppgift-1\UnitTestTri\obj\Debug\UnitTestTri.csprojResolveAssemblyReference.cache
+C:\Users\re222dv\Documents\Uppgift-1\UnitTestTri\obj\Debug\UnitTestTri.dll
+C:\Users\re222dv\Documents\Uppgift-1\UnitTestTri\obj\Debug\UnitTestTri.pdb
