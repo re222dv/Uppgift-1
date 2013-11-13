@@ -3,8 +3,17 @@
   <head>
   	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   	<title>Blackbox</title>
+	<style>
+		.pass {
+			background-color: lightgreen;
+		}
+		.fail {
+			background-color: LightCoral;
+		}
+	</style>
   </head>
   <body>
+  	<h1>Testfall</h1>
     <table>
     	<thead>
     		<tr>
@@ -42,14 +51,52 @@
     		<td>5</td>
     		<td>Test av inga argument</td>
     		<td></td>
-    		<td>Ett felmeddelande, en triangel m�ste ha tre sidor</td>
+    		<td>Ett felmeddelande, en triangel måste ha tre sidor</td>
     	</tr>
     	<tr id="t6">
     		<td>6</td>
     		<td>Test av fel antal argument</td>
     		<td>1 2 3 4</td>
-    		<td>Ett felmeddelande, en triangel m�ste ha tre sidor</td>
+    		<td>Ett felmeddelande, en triangel måste ha tre sidor</td>
     	</tr>
     </table>
+	<h1>Testresultat</h1>
+	<table>
+		<thead>
+			<th>#</th>
+			<th>Utdata</th>
+			<th>Resultat</th>
+		</thead>
+		<tr>
+			<td><a href="#t1">1</a></td>
+			<td>Triangeln är liksidig</td>
+			<td class="pass">Godkänd</td>
+		</tr>
+		<tr>
+			<td><a href="#t2">2</a></td>
+			<td>Triangeln är likbent</td>
+			<td class="pass">Godkänd</td>
+		</tr>
+		<tr>
+			<td><a href="#t3">3</a></td>
+			<td>Triangeln har inga lika sidor</td>
+			<td class="pass">Godkänd</td>
+		</tr>
+		<tr>
+			<td><a href="#t4">4</a></td>
+			<td>Triangeln har inga lika sidor</td>
+			<td class="fail">Ej Godkänd</td>
+		</tr>
+		<tr>
+			<td><a href="#t5">5</a></td>
+			<td>Triangeln är liksidig</td>
+			<td class="fail">Ej Godkänd</td>
+		</tr>
+		<tr>
+			<td><a href="#t6">6</a></td>
+			<td>Triangeln har inga lika sidor</td>
+			<td class="fail">Ej Godkänd</td>
+		</tr>
+	</table>
   </body>
 </html>
